@@ -1,0 +1,10 @@
+{
+  "name": "cinde",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cinde hosted player and email sender",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
+

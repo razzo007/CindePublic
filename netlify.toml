@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/"
+  to = "/landing/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/latest"
+  to = "/landing/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/episodes"
+  to = "/landing/all-episodes.html"
+  status = 302
+
+[[redirects]]
+  from = "/brief"
+  to = "/landing/brief.html"
+  status = 302

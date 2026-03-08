@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinde Executive Brief</title>
+    <link rel="stylesheet" href="/landing/styles.css" />
+  </head>
+  <body data-page="latest">
+    <main class="page">
+      <section class="hero">
+        <div class="hero-top">
+          <div class="brand-lockup">
+            <img
+              data-logo
+              src="https://cdn.jsdelivr.net/gh/razzo007/CindePublic@main/albertsons.png"
+              alt="Albertsons logo"
+            />
+            <div class="logo-fallback" data-logo-fallback>Albertsons logo</div>
+          </div>
+          <div class="hero-copy">
+            <h1 class="hero-title" data-brief-title>CINDE Executive Brief</h1>
+            <p class="hero-company" data-company-name>Albertsons</p>
+            <div class="hero-meta">
+              <span class="pill primary" data-section-pill>Executive</span>
+              <span class="dot">&middot;</span>
+              <span data-section-name>Business Performance</span>
+              <span class="dot">&middot;</span>
+              <span data-updated-label>Updated weekly</span>
+            </div>
+            <p class="hero-description" data-hero-description>
+              Built to keep leaders ahead of change.
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button ghost" data-all-episodes-link href="/landing/all-episodes.html">All Episodes</a>
+          <a class="button primary" data-hero-latest-link href="/landing/brief.html?autoplay=1">
+            <span aria-hidden="true">&#9654;</span>
+            <span>Latest Episode</span>
+          </a>
+        </div>
+      </section>
+
+      <div class="section-header">
+        <h2>Latest Episode</h2>
+        <a class="section-link" data-all-episodes-link href="/landing/all-episodes.html">All Episodes &#8599;</a>
+      </div>
+
+      <section class="episode-card" data-latest-player>
+        <div class="player-shell" data-player-shell>
+          <div class="episode-topline">
+            <span class="tag" data-episode-tag>EXECUTIVE UPDATE</span>
+            <span data-episode-meta>~8 min · Feb 2, 2026</span>
+            <span class="meta-label" data-episode-cadence>WEEKLY</span>
+            <span class="pill muted" data-episode-status>LATEST</span>
+          </div>
+
+          <h2 class="episode-title" data-episode-title>Albertsons Business Update: Feb 2, 2026</h2>
+          <p class="episode-eyebrow" data-episode-eyebrow>WEEKLY · EXECUTIVE UPDATE</p>
+          <p class="episode-summary" data-episode-summary>
+            Performance softened modestly, with pressure concentrated in a few regions and categories.
+          </p>
+
+          <div class="loading-row">
+            <span class="spinner" aria-hidden="true"></span>
+            <span data-loading-label>Preparing audio stream...</span>
+          </div>
+
+          <div class="progress-wrap">
+            <div class="progress-bar">
+              <span class="progress-fill" data-progress-fill></span>
+            </div>
+            <div class="plays" data-episode-plays>4,820 plays</div>
+          </div>
+
+          <div class="card-actions">
+            <button class="button primary" type="button" data-audio-toggle></button>
+            <a class="button ghost" data-download-link href="https://cdn.jsdelivr.net/gh/razzo007/CindePublic@main/hello.mp3" target="_blank" rel="noreferrer">Download MP3</a>
+          </div>
+
+          <p class="audio-status" data-audio-status></p>
+          <audio preload="metadata"></audio>
+        </div>
+      </section>
+    </main>
+
+    <script src="/landing/config.js"></script>
+    <script src="/landing/app.js"></script>
+  </body>
+</html>
